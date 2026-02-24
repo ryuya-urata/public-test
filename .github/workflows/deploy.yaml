@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: 20
       - name: Install Dependencies
-        run: npm install --ligacy-peer-deps
+        run: npm install --legacy-peer-deps
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
